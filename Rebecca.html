@@ -37,7 +37,7 @@
         .image {
             width: 80px;
             height: 80px;
-         background-image: url('https://cdn.discordapp.com/attachments/963659177157345340/1339878558889148456/Screenshot_2024-10-28-00-30-08-40_a63b0f8076346d26cbdc1b971a1da2a72.jpg?ex=67b052a6&is=67af0126&hm=5673b976229e86958e33dfa4fc51cacf8068bb3fb41434a7a37e43886a4a3ecf&'); 
+            background-image: url("pics/background.jpg");
             background-size: cover;
         }
 
@@ -105,8 +105,8 @@
     <div class="background" id="background"></div>
 
     <div class="container" id="question-container">
-        <!-- <img id="gifID" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" width="200px"> -->
-        <img id="gifID" src="https://cdn.discordapp.com/attachments/963659177157345340/1339887996295450634/merry-me.gif?ex=67b05b70&is=67af09f0&hm=29c246cc1dd75d5a8f524a552b2e4424a047aebd84b4e3f275fe833202214b69&" width="200px">
+        <img id="gifID" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" width="200px">
+        <!-- <img id="gifID" src="https://cdn.discordapp.com/attachments/963659177157345340/1339887996295450634/merry-me.gif?ex=67b05b70&is=67af09f0&hm=29c246cc1dd75d5a8f524a552b2e4424a047aebd84b4e3f275fe833202214b69&" width="200px"> -->
 
         <h1>Will you be my Valentine?</h1>
         <div class="button-container">
@@ -118,21 +118,21 @@
     <div class="container hidden" id="response-container">
         <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" width="200px">
         <h1>YAAAYYYYYYY!! ❤️ <br>
-            <span style="font-size: 14px;">Please Give Me kisses later 😘😘😘</span>
+            <span style="font-size: 14px;"></span>
         </h1>
     </div>
 
     <script>
         // Array of background image URLs
         const imageUrls = [
-            'https://example.com/image3.jpg',
-            'https://cdn.discordapp.com/attachments/963659177157345340/1339884880892395603/Screenshot_2025-02-14-04-03-29-50_965bbf4d18d205f782c6b8409c5773a4.jpg?ex=67b05889&is=67af0709&hm=153da1acf6e7e0439ac585475d64418b001608f6d7282e02b585ac3b9d1ad3fe&',
-            'https://cdn.discordapp.com/attachments/963659177157345340/1339883168878301194/bubu-bubu-dudu.gif?ex=67b056f1&is=67af0571&hm=78e8ec4aaba28ce5add42a7431a93e8204eabd62bb7b943f23c219eed31b7eca&',
-            'https://cdn.discordapp.com/attachments/963659177157345340/1339886219869556767/Snapchat-2027986699.jpg?ex=67b059c8&is=67af0848&hm=bf3bd2cbdda3cbcc740f25011f1b3a470b542c1bc68718e0c37291fa7e97b295&',
-            'https://cdn.discordapp.com/attachments/963659177157345340/1339886314383736882/Snapchat-63632.jpg?ex=67b059df&is=67af085f&hm=7e359423155247de6f7d1d01d976217029193b02d3b9da2912973cdd54f26fad&',
-            'https://cdn.discordapp.com/attachments/963659177157345340/1339887540295045182/spongebob-squarepants-begging.gif?ex=67b05b03&is=67af0983&hm=6df680fd51f8cd4680a0007205848dd4680f1da341d514338804c7aaf4138d6a&',
-            'https://cdn.discordapp.com/attachments/963659177157345340/1339887891794493510/no-fair-catbug.gif?ex=67b05b57&is=67af09d7&hm=171fc65835ed0363cbdf42a7817c724eb06226981f96958d67f79aeab361ba5d&',
-            'https://cdn.discordapp.com/attachments/963659177157345340/1339885329884250202/ImportedPhoto.756542253.191481-1_1.jpg?ex=67b058f4&is=67af0774&hm=2684e40107f611820af70abf56079bbdf082c2f86bf53c5de2d627b5a9f72106&',
+            'pics/crying_bear.gif',
+            'pics/crying_bear.gif',
+            'pics/mochi_hat.jpg',
+            'pics/nofair_catbug.gif',
+            'pics/mochi_sleeping.jpg',
+            'pics/spongebob_beg.gif',
+            'pics/crying_bear.gif',
+            'pics/beca_sleepy.jpg',
             // Add more image URLs here
         ];
 
@@ -169,7 +169,7 @@
 
             if (noCount >= noPhrases.length) {
                 alert("Hacking My Way To Your Heart!"); // Show the alert message
-                imageContainer.src = "https://cdn.discordapp.com/attachments/963659177157345340/1339886590222143570/Snapchat-509076399.jpg?ex=67b05a20&is=67af08a0&hm=83d9829e21976efa58d45d2fd6260289ba389b6743405ddbf2a3a6de7a16f98a&";
+                imageContainer.src = "pics/mochi_cool.jpg";
                 document.getElementById("no-btn").classList.add("hidden");
             } 
             this.textContent = noPhrases[Math.min(noCount, noPhrases.length - 1)];
